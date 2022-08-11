@@ -4,7 +4,7 @@ function imc(){
     const peso = document.getElementById('peso').value;
     const resultado = document.getElementById('resultado');
 
-    if(altura !=='' && peso !==''){ /*
+    if(altura !=='' && peso !==''){ 
      const valorIMC = (peso / (altura * altura)).toFixed(1);
 
 
