@@ -1,0 +1,78 @@
+main{
+    display:flex; /* */
+    width: 100vw; /*Altura*/
+    height: 100vh; /*Largura*/
+    justify-content: center; /* alinha os ites de  contener flexivel*/
+    align-items: center; /* estabelece o alinhamento de um certo item dentro do bloco*/
+}
+
+.fundo{
+    background-color: black;
+    margin: 0%;
+}
+.quadrado{
+    display:flex;
+    flex-direction: column;/*define como os itens flexíveis são colocados no contêiner flexível, definindo o eixo principal e a direção (normal ou invertido)*/
+    background: rgb(255,198,0); /* cor fundo*/
+    width: 360px;
+    height: 600px;
+    align-items: center;
+      justify-content: space-evenly;
+      border-radius: 20px;/*destina-se a definir bordas arredondadas*/
+      box-shadow: 0 0 10px black; /*e utilizado para adicionar efeitos de sombra*/
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;/*é responsável por definir a formatação da(s) fonte(s) utilizada(s) na sua página HTML.*/
+    border-bottom: solid 5px black;/*ele define a espessura, cor e tipo da borda de uma só vez.*/
+    margin-bottom: 20px;/* define a margin area na parte inferior de um elemento.*/
+}
+
+ .input{ 
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.input input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;/* serve para que você estilize seu site da melhor forma.*/
+    outline: 0;/*pode ser útil quando voce quer deixar o design mais limpo*/
+    font: bold 1.5rem serif;/*permite que se faça uma lista de prioridades de familias de fontes e/ou nomes genéricos de famílias a serem especificados para um elemento selecionado.*/
+    text-align: center;
+}
+.input label{
+    font: bold 1.5rem serif;
+}
+button{
+    width: 300px;
+    height: 40px;
+    font:bold 1.2rem serif;
+    background: #000;
+    color: rgb(255,198,0);
+    outline: none;
+    border-radius: 5px;
+    cursor:pointer/*pointerr especifica o cursor do mouse mostrado quando o ponteiro do mouse está sobre um elemento*/
+}
+.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font:italic 1.5rem serif;
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color: rgb(255,198,0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}

@@ -1,0 +1,77 @@
+main{
+     display: flex; /* */
+     width: 100vw;/*Altura*/
+     height: 100vh;/*Largura*/
+     justify-content: center;/* alinha os ites de  contener flexivel*/
+     align-items: center;/* estabelece o alinhamento de um certo item dentro do bloco*/
+}
+
+.fundo{
+    background-color: black;/* para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo. */
+    margin:0;/*define a área de margem nos quatro lados do elemento*/
+}
+.quadrado{
+    display: flex;
+    flex-direction: column;/*define como os itens flexíveis são colocados no contêiner flexível, definindo o eixo principal e a direção (normal ou invertido)*/
+    background: rgb(255,198,0);/* cor fundo*/
+    width: 360px;/*Altura*/
+    height: 600px;/*Largura*/
+    align-items: center;/* estabelece o alinhamento de um certo item dentro do bloco*/
+    justify-content:  space-evenly;/* alinha os ites de  contener flexivel*/
+    border-radius: 20px;/*destina-se a definir bordas arredondadas*/
+    box-shadow: 0 0 10px black; /*e utilizado para adicionar efeitos de sombra*/
+}
+.titulo{
+    display: flex;
+    justify-content: center;;/* alinha os ites de  contener flexivel*/
+    align-items: center;/*estabelece o alinhamento de um certo item dentro do bloco */
+    width: 100%;/*Altura*/
+    height: 50px;/*Largura*/
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+}
+.input{
+    display: flex;
+    width: 300px;/*Altura*/
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.input input{
+    width: 200px;
+    height: 50px; 
+    border-radius: 5px;
+    border: none;/* serve para que você estilize seu site da melhor forma.*/
+    outline: 0;/*pode ser útil quando voce quer deixar o design mais limpo*/
+    font: bold 1.5rem serif;/*permite que se faça uma lista de prioridades de familias de fontes e/ou nomes genéricos de famílias a serem especificados para um elemento selecionado.*/
+    text-align: center;
+}
+.input label{
+    font: bold 1.5rem serif;
+}
+button{
+    width: 300px; /*Altura*/
+    height: 40px; 
+    font: bold 1.2rem serif;
+    background: #000;
+    color: rgb(255,198,0);
+    outline: none;/*pode ser útil quando voce quer deixar o design mais limpo*/
+    border-radius: 5px;
+    cursor: pointer;/*pointerr especifica o cursor do mouse mostrado quando o ponteiro do mouse está sobre um elemento*/
+}
+.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;/*Altura*/
+    height: 150px;/*Largura*/
+    border-radius: 5px;
+    font: italic 1.5rem serif;/*permite que se faça uma lista de prioridades de familias de fontes e/ou nomes genéricos de famílias a serem especificados para um elemento selecionado.*/
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color:  rgb(255,198,0);
+    padding: 20px;
+    box-sizing:  border-box;
+    user-select: none;
+}
